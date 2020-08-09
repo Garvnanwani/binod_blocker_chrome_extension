@@ -1,18 +1,3 @@
-// function replaceText(element) {
-//   if (element.hasChildNodes()) {
-//     element.childNodes.forEach(replaceText)
-//   } else if (element.nodeType === Text.TEXT_NODE) {
-//     if (element.textContent.match(/\b(?:Binod|BINOD|binod)\b/gi)) {
-//     //   const newElement = document.createElement('span')
-//     //   newElement.innerHTML = element.textContent.replace(/(Binod)/gi, '<span>$1</span>')
-//     //   element.replaceWith(newElement)
-//         element.parentElement.remove()
-// }
-//   }
-// }
-
-// replaceText(document)
-
 function BinodRemover() {
     
     let elements = document.getElementsByTagName('*');
